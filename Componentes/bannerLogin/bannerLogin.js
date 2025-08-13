@@ -1,5 +1,5 @@
 
-export function Banner2() {
+export function banner2() {
     let login = document.createElement("div");
     login.className = "div-banner2";
 
@@ -19,18 +19,18 @@ export function Banner2() {
     login.appendChild(p1);
 
     let aBoton1 = document.createElement("a");
-    aBoton1.href = "";
+    aBoton1.href = "../Login2/login2.html";
     aBoton1.className = "div-boton2";
     aBoton1.textContent = "LOG IN";
     login.appendChild(aBoton1);
 
     let span1 = document.createElement("span");
     span1.className = "span-boton2";
-    span1.textContent = "----OR----";
+    span1.textContent = "-OR-";
     aBoton1.appendChild(span1);
 
     let aBoton2 = document.createElement("a");
-    aBoton2.href = "";
+    aBoton2.href = "Pages/Register/register.html";
     aBoton2.className = "div-boton22";
     aBoton2.textContent = "REGISTER";
     login.appendChild(aBoton2);
